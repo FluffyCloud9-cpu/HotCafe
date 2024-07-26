@@ -1,0 +1,145 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #914F1E;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: url('https://thumb.ac-illust.com/84/847bce77bbdc21ca03fab6d7617ce11f_t.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    position: relative;
+}
+
+.hero-content {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    margin-bottom: 1rem;
+}
+
+.specialties {
+    padding: 2rem 0;
+    background: #393b3b;
+}
+
+.specialties h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: cursive;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+.specialty {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.specialty img {
+    width: 100%;
+    height: auto;
+}
+
+.specialty h3 {
+    margin: 0.5rem 0;
+}
+
+.specialty p {
+    padding: 0 1rem;
+}
+
+.specialty:hover {
+    border-color: #6f4f28;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.specialty.selected {
+    border-color: #6f4f28;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.about-hot-cafe {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-hot-cafe h2 {
+    margin-bottom: 1rem;
+}
+
+.about-hot-cafe p {
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: #000000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
